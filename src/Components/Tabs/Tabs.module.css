@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  width: 75%;
+  display: flex;
+}
+
+.blockContent {
+  display: flex;
+  align-items: center;
+  padding: 0 80px 0 100px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.tabs {
+  width: 253px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+.tabs li {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: white;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.wrapperContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 629px;
+  margin-top: 20px;
+}
+
+.wrapperHeadline {
+  width: 800px;
+  display: flex;
+  flex-direction: column; /* Переносим элементы по вертикали */
+  align-items: flex-start; /* Выравниваем по левому краю */
+}
+
+h1 {
+  margin: 0; /* Убираем отступы */
+  white-space: nowrap; /* Запрещаем перенос текста */
+}
+
+/* .Headline {
+  display: block;
+  margin-top: auto;
+  text-align: right;
+} */
+
+.wrapperHeadline h1 {   
+  font-family: "Montserrat";
+  color: white;
+  font-size: 48px;
+}
+
+.wrapperTabs {
+  display: flex;
+  width: 34%;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

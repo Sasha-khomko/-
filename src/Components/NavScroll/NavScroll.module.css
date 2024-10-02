@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navScroll ul {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    line-height: 3;
+    position: fixed;
+}
+
+.navScroll a {
+    font-family: "Montserrat";
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a::before {
+    content: "——";
+    position: relative;
+    left: -20px;
+    display: inline-block;
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.active::before {
+    transform: scaleX(3);
+}
+
+.active {
+    color: white;
+}
